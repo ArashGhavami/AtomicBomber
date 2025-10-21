@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml" fx:controller="view.GameLauncher">
+   <children>
+      <ImageView fx:id="howManyRadioActives" fitHeight="86.0" fitWidth="81.0" layoutX="27.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="numberOfRadios" layoutX="108.0" layoutY="40.0" prefHeight="86.0" prefWidth="43.0" />
+      <ImageView fx:id="heartIcon" fitHeight="86.0" fitWidth="81.0" layoutX="27.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="numberOfHearts" layoutX="108.0" layoutY="126.0" prefHeight="86.0" prefWidth="43.0" />
+      <ImageView fx:id="clusterBombIcon" fitHeight="86.0" fitWidth="81.0" layoutX="27.0" layoutY="31.0" />
+      <Label fx:id="numberOfClustersInBoard" layoutX="108.0" layoutY="40.0" prefHeight="86.0" prefWidth="43.0" />
+      <Label fx:id="waveNumber" />
+      <Button  text="Pause" layoutX="806.0" layoutY="26.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="54.0" onMouseClicked="#pause"/>
+   </children>
+</AnchorPane>

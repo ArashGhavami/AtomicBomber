@@ -1,0 +1,48 @@
+.label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1FAABD;
+}
+
+
+.text-field, .password-field {
+    -fx-prompt-text-fill: #999999;
+    -fx-font-size: 14px;
+    -fx-background-color: #D6C5C5;
+    -fx-border-color: #D6C5C5;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #1FAABD;
+    -fx-text-fill: #1F2DBD;
+    -fx-background-radius: 20px;
+}
+
+.button:hover {
+    -fx-background-color: #1F2DBD;
+    -fx-text-fill: #1FAABD;
+}
+
+.button:pressed {
+    -fx-background-color: #1FABDv;
+}
+
+
+#username, #password {
+    -fx-pref-width: 200px;
+}
+
+#username {
+    -fx-pref-height: 30px;
+}
+
+#password {
+    -fx-pref-height: 30px;
+}
+
+#signUp, #reset, #exit, #loginMenu {
+    -fx-pref-width: 100px;
+    -fx-pref-height: 30px;
+}
+

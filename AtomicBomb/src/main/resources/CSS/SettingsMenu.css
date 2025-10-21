@@ -1,0 +1,54 @@
+/* SettingsMenu.css */
+
+/* Root pane styling */
+.root {
+    -fx-background-color: #e0f7fa; /* Light cyan background */
+}
+
+/* Label styling */
+Label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #0277bd; /* Dark blue text */
+}
+
+/* Button styling */
+Button {
+    -fx-background-color: #0288d1; /* Blue background */
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+Button:hover {
+    -fx-background-color: #0277bd; /* Darker blue on hover */
+}
+
+/* CheckBox styling */
+CheckBox {
+    -fx-text-fill: #0277bd; /* Dark blue text */
+}
+
+CheckBox:checked {
+    -fx-mark-color: #0288d1; /* Blue check mark */
+}
+
+/* ChoiceBox styling */
+ChoiceBox {
+    -fx-background-color: white;
+    -fx-border-color: #0288d1; /* Blue border */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* HBox and VBox styling */
+HBox {
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+}
+
+VBox {
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+}

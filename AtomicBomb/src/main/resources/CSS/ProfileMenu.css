@@ -1,0 +1,24 @@
+.label {
+        -fx-font-weight: bold;
+        -fx-text-fill: #1FAABD;
+        -fx-font-size: 18px;
+}
+
+.text-field {
+    -fx-prompt-text-fill: #90D3DC;
+}
+
+.button {
+    -fx-background-color: #1FAABD;
+    -fx-text-fill: #1F2DBD;
+    -fx-background-radius: 20px;
+}
+
+.button:hover {
+     -fx-background-color: #1F2DBD;
+        -fx-text-fill: #1FAABD;
+}
+
+.button:pressed {
+     -fx-background-color: #1FABDv;
+}

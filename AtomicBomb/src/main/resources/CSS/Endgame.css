@@ -1,0 +1,23 @@
+/* styles.css */
+
+.root {
+    -fx-background-color: #000080; /* Dark blue background for the root pane */
+}
+
+.button {
+    -fx-background-color: #1E90FF; /* Dodger blue background for buttons */
+    -fx-text-fill: white; /* White text color for better contrast */
+    -fx-font-size: 12px; /* Font size for the buttons */
+    -fx-padding: 7.5px 15px; /* Padding inside buttons */
+    -fx-border-radius: 5px; /* Rounded corners for buttons */
+    -fx-background-radius: 5px; /* Rounded corners for button background */
+    -fx-cursor: hand; /* Change cursor to hand when hovering over buttons */
+}
+
+.button:hover {
+    -fx-background-color: #4682B4; /* Light steel blue background on hover */
+}
+
+.vbox {
+    -fx-spacing: 20px; /* Spacing between children in VBox */
+}
