@@ -11,4 +11,4 @@ Stay alert — enemy tanks and fighter jets will attack as you progress. Strateg
 Use W, A, S, D or the arrow keys to move the plane across the screen. Press Space to drop a regular bomb, R to release a radioactive bomb, and C to launch a cluster bomb. Press Tab to freeze or unfreeze the game, and Esc to pause and open the menu. For cheat codes, press P to skip to the next wave, G to gain a radioactive bomb, Ctrl to obtain a cluster bomb, T to add a tank to the map, and H to restore your plane’s life.
 
 
-**To run this project and play the game, you should execute the "RegisterMenu.java" file in the "view" repository.**
+IMPORTANT NOTE: **To run this project and play the game, you should execute the "RegisterMenu.java" file in the "view" repository.**
